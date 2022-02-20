@@ -14,6 +14,12 @@ Every Sat 7AM KST (CET 11 PM, PST 2 PM)
 
 ## History
 
+발표  
 |Date|Content|Done|Speaker|
 |----|-------|----|-------|
-|2021.02.10|DP발표, 트리 문제풀이|✅|murjune|
+|2021.01.29|tree발표|✅|joos|
+|2021.02.5|graph발표|✅|murjune|
+|2021.02.12|DP발표|✅|thdud1744|
+|2021.02.19|recurssion발표, 트리 문제풀이|✅|joo7875|
+
+
