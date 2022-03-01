@@ -99,7 +99,7 @@ def solve(graph, stack):
 # solve
 graph = [list(input()) for _ in range(10)]
 
-stackWords = list(input() .split(";")) # ['LONDON', 'DELHI', 'ICELAND', 'ANKARA']
+stackWords = list(input() .split(";")) 
 isSolved = False
 solve(graph, stackWords)
 ```
