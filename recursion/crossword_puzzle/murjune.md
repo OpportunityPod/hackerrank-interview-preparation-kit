@@ -1,7 +1,7 @@
 # 풀이 - 완전탐색 + 백트래킹
 - 1. stack이 비었는지 확인(모두 비었으면 정답)  
 - 2. stack.pop() : stack으로부터 넣을 단어 가져오기  
-- 3. isPossible :단어를 넣을 후보 (x,y,축) 구하기 (축: 수평(right), 수직(down))  
+- 3. PossibleLocation() :단어를 넣을 후보 (x,y,축) 구하기 (축: 수평(right), 수직(down))  
 - 4. solve :다음 단어로 1~3번 재귀적으로 수행하기  
 - 5. back :단어 넣었던 공간 '-'로 되돌리기한 후 3번 수행. 
 - 6. stack.append(word) : 단어 다시 stack에 넣기
