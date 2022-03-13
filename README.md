@@ -21,5 +21,7 @@ Every Sat 7AM KST (CET 11 PM, PST 2 PM)
 |2021.02.5|graph발표|✅|murjune|
 |2021.02.12|DP발표|✅|thdud1744|
 |2021.02.19|recurssion발표, 트리 문제풀이|✅|joo7875|
+|2021.03.05|heap발표, recurssion 문제풀이|✅|joos|
+|2021.03.13|string manipulation 문제풀이|✅| |
 
 
