@@ -1,4 +1,4 @@
-
+# 1. 
 
 ``` python
 from collections import Counter
@@ -16,4 +16,22 @@ def makeAnagram(a, b):
 
     
     return len(a) + len(b) - 2*(sum(result))
+```
+
+# 2. 
+``` python
+
+def makeAnagram(a, b):
+    characters = [0] * 26  # 문자열 a을 구성하는 알파벳 개수 담을 테이블
+    for c in a:
+        characters[ord(c) - 97] += 1
+    for c in b:
+        characters[ord(c) - 97] -= 1
+
+    ans = 0
+
+    for i in range(26):
+        ans += abs(characters[i])  # 알파벳의 개수가 일치하지 않으면 그 차를 ans에 더한다
+
+    return ans
 ```
